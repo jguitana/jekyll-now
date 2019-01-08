@@ -26,7 +26,7 @@ Your Jekyll blog will often be viewable immediately at <https://yourgithubuserna
 
 ![Step 1](/images/step1.gif "Step 1")
 
-### Step 2) Customize and view your site
+### Step 2) Customize and view your site 
 
 Enter your site name, description, avatar and many other options by editing the _config.yml file. You can easily turn on Google Analytics tracking, Disqus commenting and social icons here too.
 
