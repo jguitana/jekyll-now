@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scala concurrency: performance and scheduling of common workloads
+title: Scala concurrency
 ---
 
 One of the most relevant Scala primitives for concurrency is the `Future`. It represents a value which is either complete or failed, and is scheduled to run outside the program main flow, in some other thread. You can learn more about it [here](https://docs.scala-lang.org/overviews/core/futures.html) if you are not familiar and want to understand this post.
