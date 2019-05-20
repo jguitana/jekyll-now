@@ -2,7 +2,7 @@
 layout: post
 ---
 
-*Disclaimer*: Metaphors are great for learning. If you want to learn more about this, there a lot of great write ups out there that may better introduce this topic.
+*Disclaimer*: Metaphors are great for learning. If you want to learn more about this, there are a lot of great write ups out there that may better introduce this topic.
 
 ## Introduction
 The CAP theorem states we can only have two out of three properties in a shared data distributed system - between strong consistency, availability and partition tolerance.
