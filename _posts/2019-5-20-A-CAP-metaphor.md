@@ -7,7 +7,7 @@ layout: post
 ## Introduction
 The CAP theorem states we can only have two out of three properties in a shared data distributed system - between strong consistency, availability and partition tolerance.
 
-![CAP image](./CAP.jpeg "CAP")
+![CAP image]({{ site.baseurl }}/images/CAP.jpeg)
 
 - Consistency: Reading from the system always returns the latest write.
 - Availability: The system guarantees a response at all times.
@@ -16,7 +16,7 @@ The CAP theorem states we can only have two out of three properties in a shared 
 Let's suppose Bob, a single person who is able to speak, is such a system.
 
 ## First story
-![Bob image](./bob.png "bob")
+![Bob image]({{ site.baseurl }}/images/bob.png)
 
 - *I walk in*
 - Me: Hey Bob! Just came over to tell you Tim likes apples.
@@ -30,7 +30,7 @@ Let's suppose Bob, a single person who is able to speak, is such a system.
 We can say that as long as Bob is not sleeping he is *available* (to answer), and as long as he is paying attention he is *consistent* (with the facts he keeps on his mind). But he is not *partition tolerant*. Why? Let's understand what that means in the context of the next story.
 
 ## Second story
-![Bob and Clone image](./bob2.png "bob and clone")
+![Bob and Clone image]({{ site.baseurl }}/images/bob2.png)
 
 - *I walk in*
 - Me: Hey Bob! Just came over to tell you Tim likes apples.
@@ -78,16 +78,16 @@ Choosing *availability* means we share our knowledge anyway, even if it is not t
 
 This is a summary of the characteristics we observed here. Different or additional ones are most likely observed in similar systems.
 
-##### CA
+###### CA
 Bob alone at his best.
 
-##### CP
+###### CP
 Bob and Clone refuse to share knowledge unless they shared everything they learned before.
 
-##### AP
+###### AP
 Bob and Clone always share what they know regardless each other.
 
-##### Both CP and CA (replication)
+###### Both CP and CA (replication)
 Bob and Clone will always attempt to share knowledge between themselves whenever they know new stuff.
 
 That's it!
