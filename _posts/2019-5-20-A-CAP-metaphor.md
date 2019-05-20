@@ -13,9 +13,9 @@ The CAP theorem states we can only have two out of three properties in a shared 
 - Availability: The system guarantees a response at all times.
 - Partition tolerance: The system is distributed in multiple machines, in case of failure.
 
+## First story
 Let's suppose Bob, a single person who is able to speak, is such a system.
 
-## First story
 ![Bob image]({{ site.baseurl }}/images/bob.png)
 
 - *I walk in*
@@ -30,6 +30,8 @@ Let's suppose Bob, a single person who is able to speak, is such a system.
 We can say that as long as Bob is not sleeping he is *available* (to answer), and as long as he is paying attention he is *consistent* (with the facts he keeps on his mind). But he is not *partition tolerant*. Why? Let's understand what that means in the context of the next story.
 
 ## Second story
+Now let's team up Bob with a clone of himself.
+
 ![Bob and Clone image]({{ site.baseurl }}/images/bob2.png)
 
 - *I walk in*
