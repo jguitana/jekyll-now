@@ -2,8 +2,6 @@
 layout: post
 ---
 
-# A CAP metaphor
-
 *Disclaimer*: Metaphors are great for learning. If you want to learn more about this, there a lot of great write ups out there that may better introduce this topic.
 
 ## Introduction
